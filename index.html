@@ -11,18 +11,18 @@
 </head>
 <body>
     <header id="header">
-        <div class="container d-flex border d-justify-content-center align-items-center">
-            <h1 class="">etch-a-sketch</h1>
+        <div class="container d-flex border justify-content-center align-items-center p-4 bg-light bg-gradient text-dark">
+            <h1>etch-a-sketch</h1>
         </div>
     </header>
 
     <section id="selectors">
-        <div class="container d-flex border justify-content-evenly p-4 bg-light">
-            <button id="reset">reset</button>
-            <button id="black">black</button>
-            <button id="rainbow">rainbow</button>
-            <button id="color-picker">pick color</button>
-            <button id="eraser">eraser</button>
+        <div class="container d-flex border justify-content-evenly p-4 bg-light bg-gradient">
+            <button id="reset" class="btn-dark">reset</button>
+            <button id="black"class="btn-dark">black</button>
+            <button id="rainbow" class="btn-dark">rainbow</button>
+            <button id="color-picker" class="btn-dark">pick color</button>
+            <button id="eraser" class="btn-dark">eraser</button>
         </div>
     </section>
 
@@ -35,6 +35,8 @@
 
     <section id="grid-bar">
         <div class="container">
+            <label for="customRange3" class="form-label">1 to 256</label>
+            <input type="range" class="form-range" min="1" max="128" id="customRange3">
         </div>
     </section>
     
