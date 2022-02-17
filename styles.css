@@ -1,14 +1,21 @@
-#grid{
-    width: 538px;
-    height: 514px;
+.canvas {
+    display: flex;
+    flex-direction: column;
 }
 
-.grid-item{
-    width: 15px;
-    height: 15px;
-    background-color: grey;
-    float: left;
-    margin: 0.5px;
+#grid{
+    
+    margin-top: 15px;
+    display: inline-grid;
+    grid-template-columns: repeat(16, 2fr);
+    grid-template-rows: repeat(16, 2fr);
+    border: 5px solid white;
+    border-radius: 5px;
+    height: 575px;
+    width: 575px;
+}
 
-
+#grid .grid-item{
+    background-color: white;
+    border: 0.5px solid grey;
 }
