@@ -13,7 +13,7 @@
 
 /* make button color gradient rainbow */
 
-#rainbow {æ
+#rainbow {
     background: linear-gradient(to right, #f00, #ff0, #0f0, #0ff, #00f, #f0f, #f0f);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
