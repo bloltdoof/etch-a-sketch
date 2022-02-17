@@ -1,20 +1,14 @@
-
-
-#grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 10px;
-  background-color: white;
-  padding: 10px;
-  height: 600px;
-  width: 600px;
+#grid{
+    width: 538px;
+    height: 514px;
 }
 
+.grid-item{
+    width: 15px;
+    height: 15px;
+    background-color: grey;
+    float: left;
+    margin: 0.5px;
 
-/* make button color gradient rainbow */
 
-#rainbow {
-    background: linear-gradient(to right, #f00, #ff0, #0f0, #0ff, #00f, #f0f, #f0f);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
