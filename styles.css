@@ -1,6 +1,8 @@
 .canvas {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #grid{
@@ -18,4 +20,16 @@
 #grid .grid-item{
     background-color: white;
     border: 0.5px solid grey;
+}
+
+
+
+#rainbow {
+    
+    background: linear-gradient(to right, #f44336, #e91e63, #9c27b0, #673ab7, #3f51b5, #2196f3, #03a9f4, #00bcd4, #009688, #4CAF50, #8bc34a, #cddc39, #ffeb3b, #ffc107, #ff9800, #ff5722, #795548);
+    background-size: 400% 400%;
+    animation: rainbow 10s ease infinite;
+    /* make the text white */
+    color: white;
+
 }
